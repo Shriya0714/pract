@@ -1,8 +1,8 @@
 <html>
     <body>
         <h2 id="h">Hello Student</h2>
-        <input id="in" placeholder="enter your name">
-        <button id="b1">Change Name</button>
+        <!--<input id="in" placeholder="enter your name">
+        <button id="b1">Change Name</button>-->
 
         <button id="b2">Add item</button>
         <ul id="list"></ul>
@@ -10,20 +10,20 @@
         <button id="b3">hello</button>
 
         <script>
-            const heading=document.getElementById("h");
-            const input=document.getElementById("in");
-            const btn=document.getElementById("b1");
+            //const heading=document.getElementById("h");
+            //const inp=document.getElementById("in");
+            //const btn=document.getElementById("b1");
             const btn2=document.getElementById("b2");
             const list=document.getElementById("list");
 
             const btn3=document.getElementById("b3");
-            btn.addEventListener("click", function(){
+            btn3.addEventListener("click", function(){
                 window.alert("Hello!");
             });
 
-            btn.addEventListener("click", function(){
-                heading.textContent="Hello "+ input.value();
-            });
+            //btn.addEventListener("click", function(){
+            //    heading.textContent="Hello "+ inp.ariaValueText();
+            //});
 
             btn2.addEventListener("click", function(){
                 const li=document.createElement("li");
